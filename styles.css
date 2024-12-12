@@ -1,0 +1,233 @@
+body{
+    margin: 0;
+}
+
+
+/*Header Section*/
+.header{
+    width: 100%;
+    height: 226px;
+    background-color: black;
+    padding-top: 1px;
+}
+.header-wrapper{
+    width: auto;
+    height: auto;
+    margin-left: 225px;
+    margin-right: 225px;
+}
+.header-name-section{
+    width: 100%;
+    height: 165px;
+    background-color: black;
+    align-content: center;
+}
+.title-wrapper{
+    text-align: center;
+}
+.site-title{
+    text-decoration: none;
+    color: #b7b7b7;
+    font-size: 55px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.15;
+    letter-spacing: 6.5px;
+    text-transform: uppercase;
+    font-family: "Playfair Display", serif;
+}
+.title-description{
+    color: #b7b7b7;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin: 4px 0 0 0;
+    font-family: sans-serif;
+}
+
+/*Nav Section*/
+.header-nav-items{
+    width: auto;
+    height: 60px;
+    background-color: black;
+    border-top: 1px solid #363636;
+    align-content: center;
+}
+.nav-wrapper{
+    width: auto;
+    height: 60px;
+    align-content: center;
+}
+.nav-items{
+    text-align: center;
+}
+.nav-items ul{
+    list-style: none;
+    margin: 0;
+}
+.nav-items li{
+    display: inline;
+}
+.nav-items a{
+    font-family: sans-serif;
+    text-decoration: none;
+    padding: 22px 16px;
+    letter-spacing: 0.29px;
+    font-size: 0.875rem;
+    color: #fff;
+}
+
+/*Image Section*/
+.image-section{
+    width: auto;
+    height: 1070px;
+}
+.image{
+    width: auto;
+    height: 1070px;
+}
+
+/*content section*/
+.content{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    align-content: center;
+}
+.content-wrapper{
+    margin-left: 290px;
+    margin-right: 290px;
+}
+.text-container{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    text-align: center;
+}
+.content-text_1{
+    margin: 0;
+    color: #7A7A7A;
+    font-weight: 700;
+    font-family: "Roboto", Sans-serif;
+    font-size: 22px;
+    letter-spacing: 1px;
+    margin-top: 150px;
+}
+.content-text_2{
+    margin: 0;
+    color: #7A7A7A;
+    font-weight: 700;
+    font-family: "Roboto", Sans-serif;
+    font-size: 22px;
+    letter-spacing: 1px;
+    margin-top: 50px;
+}
+
+/*Image Section Two*/
+.image-section-two{
+    width: 100%;
+    height: 610px;
+    align-content: center;
+    background-color: black;
+}
+.image-wrapper{
+    width: auto;
+    height: auto;
+    margin-left: 510px;
+    margin-right: 510px;
+}
+.image-two{
+    width: 880px;
+    height: 495px;
+}
+
+
+/*followus insta,fb...*/
+.followus{
+    width: 100%;
+    height: 300px;
+    background-color: black;
+}
+.followus-wrapper{
+    width: auto;
+    height: 300px;
+    margin-left: 735px;
+    margin-right: 735px;
+    align-content: center;
+}
+.followus-container{
+    width: 100%;
+    height: auto;
+}
+.followus-container ul{
+    display: flex;
+    padding: 0;
+    justify-content: space-between;
+}
+.followus-container a{
+    text-decoration: none;
+}
+.fa-facebook{
+    font-size: 30px;
+    color: #235bff;
+}
+.fa-instagram{
+    font-size: 30px;
+    color: #7A7A7A;
+}
+.fa-linkedin{
+    font-size: 30px;
+    color: lightskyblue;
+}
+.fa-youtube{
+    font-size: 30px;
+    color: #cf2e2e;
+}
+
+/*footer section*/
+footer{
+    width: 100%;
+    height: 100px;
+}
+.footer-wrapper{
+    width: auto;
+    height: 100px;
+    margin-left: 735px;
+    margin-right: 735px;
+    align-content: center;
+}
+.footer-container p{
+    color: #7A7A7A;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+.footer-container a{
+    color: #fff;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+/*Hover Effects*/
+.site-title:hover{
+    color: #cf2e2e;
+    transition: color 0.3s ease-in-out;
+}
+.nav-items a:hover{
+    color: #cf2e2e;
+    transition: color 0.3s ease-in-out;
+}
+.footer-container a:hover{
+    color: #cf2e2e;
+    transition: color 0.3s ease-in-out;
+    text-decoration: underline;
+}
+
+/*Media Queries*/
+@media only screen and (max-width: 600px){
+
+}
