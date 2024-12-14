@@ -11,10 +11,10 @@ body{
     padding-top: 1px;
 }
 .header-wrapper{
-    width: auto;
+    width: 75%;
     height: auto;
-    margin-left: 225px;
-    margin-right: 225px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .header-name-section{
     width: 100%;
@@ -55,7 +55,6 @@ body{
     height: 60px;
     background-color: black;
     border-top: 1px solid #363636;
-    align-content: center;
 }
 .nav-wrapper{
     width: auto;
@@ -83,13 +82,13 @@ body{
 
 /*Image Section*/
 .image-section{
-    width: auto;
-    height: 1070px;
+    width: 100%;
+    height: auto;
     background-color: black;
 }
 .image{
-    width: auto;
-    height: 1070px;
+    width: 100%;
+    height: auto;
 }
 
 /*content section*/
@@ -100,8 +99,9 @@ body{
     align-content: center;
 }
 .content-wrapper{
-    margin-left: 290px;
-    margin-right: 290px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
 }
 .text-container{
     width: 100%;
@@ -135,11 +135,11 @@ body{
     align-content: center;
     background-color: black;
 }
-.image-wrapper{
-    width: auto;
-    height: auto;
-    margin-left: 510px;
-    margin-right: 510px;
+.img-container{
+    width: 880px;
+    height: 495px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .image-two{
     width: 880px;
@@ -154,10 +154,10 @@ body{
     background-color: black;
 }
 .followus-wrapper{
-    width: auto;
+    width: 25%;
     height: 300px;
-    margin-left: 735px;
-    margin-right: 735px;
+    margin-left: auto;
+    margin-right: auto;
     align-content: center;
 }
 .followus-container{
@@ -166,6 +166,7 @@ body{
 }
 .followus-container ul{
     display: flex;
+    flex-wrap: wrap;
     padding: 0;
     justify-content: space-between;
 }
@@ -173,35 +174,46 @@ body{
     text-decoration: none;
 }
 .fa-facebook{
-    font-size: 30px;
-    color: #235bff;
+    font-size: 24px;
+    background-color: #4267B2;
+    color: white;
+    padding: 3px;
+    border-radius: 50%;
 }
 .fa-instagram{
-    font-size: 30px;
-    color: #7A7A7A;
+    font-size: 24px;
+    color: white;
+    border-radius: 50%;
+    background-color: #7A7A7A;
+    padding: 3px;
 }
 .fa-linkedin{
-    font-size: 30px;
+    font-size: 24px;
     color: lightskyblue;
 }
 .fa-youtube{
-    font-size: 30px;
-    color: #cf2e2e;
+    font-size: 24px;
+    background-color: #cf2e2e;
+    color: white;
+    border-radius: 50%;
+    padding: 3px;
 }
 
 /*footer section*/
 footer{
     width: 100%;
     height: 100px;
+    background-color: black;
 }
 .footer-wrapper{
-    width: auto;
+    width: 100%;
     height: 100px;
-    margin-left: 735px;
-    margin-right: 735px;
+    margin-left: auto;
+    margin-right: auto;
     align-content: center;
 }
 .footer-container p{
+    text-align: center;
     color: #7A7A7A;
     font-family: sans-serif;
     font-size: 14px;
@@ -229,6 +241,19 @@ footer{
 }
 
 /*Media Queries*/
-@media only screen and (max-width: 600px){
-
-}
+@media only screen and (max-width: 600px) {
+    /*Header Section*/
+    .site-title{
+        font-size: 25px;
+    }
+    .title-description{
+        font-size: 8px;
+    }
+    /*Footer Section*/
+    .footer-container p{
+        font-size: 12px;
+    }
+    .footer-container a{
+        font-size: 12px;
+    }
+ }
